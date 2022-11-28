@@ -1,1 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.bcolor {
+  background-color: grey;
+}
+
+div.f-size {
+  font-size: 60px;
+}
+
+div.f-nsize {
+  font-size: 70px;
+}

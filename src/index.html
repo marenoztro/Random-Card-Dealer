@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Card Generator</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -12,18 +12,65 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
+
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <!-- TRES DIVS DE BOOTSTRAP-->
+    <div class="container-fluid text-center color">
+      <div class="card mx-auto h-200" style="width: 20rem; height: 30rem;">
+        <div class="card-body">
+          <!--Suit Arriba a la izq.-->
+          <div
+            class="position-absolute top-0 start-0 d-flex flex-row f-size"
+            id="addSuit1"
+          ></div>
+          <!--NUMERO en el medio-->
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4 f-nsize " id="addNumber"></div>
+            <div class="col-4"></div>
+          </div>
+          <!--SUIT Abajo a la der.-->
+          <div
+            class="position-absolute bottom-0 end-0 d-flex flex-row-reverse f-size color"
+            id="addSuit2"
+          ></div>
+          <!-- TRES DIVS DE BOOTSTRAP DE CIERRE-->
+        </div>
       </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+</head>
+
+<body style="background-color:green;">
+    <div class="card" style="width: 18rem; height: 22rem; margin: auto;">
+        <div class="card-body "> -->
+<!--divs para formar la carta -->
+<!-- <div id="header" style="height: 5rem; text-align: left; color:red; font-size: 45px;"></div>
+            <div id="center" style="height: 10rem; text-align: center; font-size: 100px;"></div>
+            <div id="footer" style="height: 12rem; text-align: right; color:red;font-size: 45px""
+        ></div>
+      </div>
+    </div>
+    <script type=" text/javascript" src="./index.js">
+                </script>
+</body>
+
+</html> -->
